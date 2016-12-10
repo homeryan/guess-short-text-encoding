@@ -1,6 +1,6 @@
 {
   "name": "shorttext-chardetect",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Detect short text charset encoding.",
   "main": "index.js",
   "scripts": {
