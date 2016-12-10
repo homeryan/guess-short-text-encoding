@@ -1,1 +1,1 @@
-module.exports = require('./lib/guess-encoding');
+module.exports = require('./lib/shorttext-chardetect');
