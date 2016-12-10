@@ -1,0 +1,24 @@
+{
+  "name": "guess-short-text-encoding",
+  "version": "0.2.0",
+  "description": "Guess short text charset encoding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type" : "git", 
+    "url" : "https://github.com/homeryan/guess-short-text-encoding.git"
+  },
+  "keywords": [
+    "charset",
+    "encoding"
+  ],
+  "author": "Hong Yan",
+  "license": "MIT",
+  "dependencies": {
+    "fast-levenshtein": "^2.0.5",
+    "iconv-lite": "^0.4.15",
+    "jschardet": "git@github.com:homeryan/jschardet.git"
+  }
+}
