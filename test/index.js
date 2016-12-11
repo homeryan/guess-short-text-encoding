@@ -47,7 +47,7 @@ testStrings.map(testString => {
   console.log(jschardet.detect(testString));
   const buffer = latin1StringToUint8Array(testString);
   const encoding = shortTextCharDetect(buffer);
-  console.log(`Windows-1251 >>> ${iconv.decode(buffer, 'Windows-1251')}`);
+  // console.log(`Windows-1251 >>> ${iconv.decode(buffer, 'Windows-1251')}`);
   console.log(`${encoding} >>> ${iconv.decode(buffer, encoding)}`);
 
   // MBCS_ENCODINGS.map(encoding => {
